@@ -1,0 +1,13 @@
+{
+    "name": "htl3r/gomboc",
+    "description": "Flaggen Beispiel",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Thomas",
+            "email": "tgomboc@gmx.at"
+        }
+    ],
+    "require": {}
+}
