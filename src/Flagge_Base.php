@@ -1,4 +1,4 @@
-<?php
+<?php namespace Gomboc;
 
 /**
  * Created by PhpStorm.
@@ -7,9 +7,11 @@
  * Time: 12:06
  */
 
+/*
 require_once "Dreieck.php";
 require_once "Quadrat.php";
 require_once "Rechteck.php";
+*/
 
 abstract class Flagge_Base
 {
@@ -36,9 +38,11 @@ abstract class Flagge_Base
 
     #private $flaeche;
 
+    /**
+     * @return string Gibt
+     */
     public function __toString() : string
     {
-        $Area = $this->getArea();
         //return 'Die Flagge ' . $this->name . ' mit der From ' . $this->form . ', enthält die Fläche ' . $this->flaeche . ' und dem Flächeninhalt ' . $this->flaeche;
         return 'Die Flagge hat den Namen ' . $this->name . 'und die farbe ' . $this->farbe;
     }

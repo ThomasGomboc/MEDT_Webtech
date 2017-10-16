@@ -1,4 +1,4 @@
-<?php
+<?php namespace Gomboc;
 /**
  * Created by PhpStorm.
  * User: Thomas Gomboc
@@ -7,5 +7,8 @@
  */
 interface Flaggen_Interface
 {
+    /**
+     * @return float soll die Fläche berechnen
+     */
     public function getArea() : float;
 }

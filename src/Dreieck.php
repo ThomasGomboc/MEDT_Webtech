@@ -1,4 +1,4 @@
-<?php
+<?php namespace Gomboc;
 
 /**
  * Created by PhpStorm.
@@ -6,10 +6,14 @@
  * Date: 02.10.2017
  * Time: 17:34
  */
-
+/*
+  * require_once wird nicht mehr benötigt wegen namepsaces und autoload
 require_once "Flagge_Base.php";
 require_once "Rechteck.php";
 require_once "Quadrat.php";
+*/
+
+
 
 class Dreieck extends Flagge_Base
 {
