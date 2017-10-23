@@ -13,6 +13,9 @@ require_once "Quadrat.php";
 require_once "Rechteck.php";
 */
 
+
+namespace gomboc\flags;
+
 abstract class Flagge_Base
 {
     private $name;

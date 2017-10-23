@@ -14,6 +14,7 @@ require_once "Quadrat.php";
 */
 
 
+namespace gomboc\flags;
 
 class Dreieck extends Flagge_Base
 {

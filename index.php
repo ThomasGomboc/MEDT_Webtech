@@ -5,6 +5,9 @@
  * Date: 06.10.2017
  * Time: 14:03
  */
+
+use gomboc\flags\Rechteck;
+
 require_once "src/Flagge_Base.php";
 
 $thomasFlagge = new Rechteck('Meine Flagge', 'rot', 2, 4);

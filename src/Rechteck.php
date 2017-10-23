@@ -8,6 +8,8 @@
  */
 
 
+namespace gomboc\flags;
+
 class Rechteck extends Flagge_Base
 {
     private $length;
@@ -29,7 +31,7 @@ class Rechteck extends Flagge_Base
 
     public function  __toString() : string
     {
-        return parent::__toString() + ' ';
+        return parent::__toString() . ' ';
     }
 
     /**

@@ -5,6 +5,9 @@
  * Date: 06.10.2017
  * Time: 13:55
  */
+
+namespace gomboc\flags;
+
 interface Flaggen_Interface
 {
     /**
