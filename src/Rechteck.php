@@ -8,7 +8,7 @@
  */
 
 
-namespace gomboc\flags;
+namespace GombocNameSpace;
 
 class Rechteck extends Flagge_Base
 {

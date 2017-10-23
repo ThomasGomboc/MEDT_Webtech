@@ -6,7 +6,7 @@
  * Time: 13:55
  */
 
-namespace gomboc\flags;
+namespace GombocNameSpace;
 
 interface Flaggen_Interface
 {

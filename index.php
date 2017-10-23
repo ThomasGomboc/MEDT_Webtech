@@ -6,7 +6,7 @@
  * Time: 14:03
  */
 
-use gomboc\flags\Rechteck;
+use GombocNamespace\Rechteck;
 
 require_once "src/Flagge_Base.php";
 

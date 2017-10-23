@@ -14,7 +14,7 @@ require_once "Rechteck.php";
 */
 
 
-namespace gomboc\flags;
+namespace GombocNameSpace;
 
 abstract class Flagge_Base
 {
