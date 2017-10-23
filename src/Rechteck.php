@@ -1,4 +1,4 @@
-<?php namespace Gomboc;
+<?php
 
 /**
  * Created by PhpStorm.
